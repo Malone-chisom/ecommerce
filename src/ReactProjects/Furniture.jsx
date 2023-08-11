@@ -13,13 +13,25 @@ const Furniture = ({ logo, Mcount }) => {
                 position: "absolute",
                 bottom: "0",
                 width: "100%",
+                height: "100%",
+                backgroundColor: "black",
+                opacity: "0."
+
 
             }} />
             <div className="container" style={{
-                backgroundColor: "black",
-                opacity: "0.6"
 
             }}>
+                {/* <img src={chair12} alt="back" style={{
+                    position: "relative",
+                    bottom: "0",
+                    width: "100%",
+                    height: "100%",
+                    backgroundColor: "black",
+                    opacity: "0.6"
+
+
+                }} /> */}
                 <div className="header">
                     <div>
                         <h2>
